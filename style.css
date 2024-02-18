@@ -40,7 +40,7 @@
   } */
   
   body {
-    background-color: #fad7df;
+    background-color: #75aedb;
   }
   
   main {
@@ -62,7 +62,7 @@
     position: absolute;
     border-left: 200px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 100px solid #eb8a8a;
+    border-top: 100px solid #6a4885;
     border-bottom: 100px solid transparent;
   
     /*  */
@@ -85,10 +85,10 @@
   }
   
   .letter {
-    border-left: 200px solid #ff989e;
-    border-right: 200px solid #ff989e;
+    border-left: 200px solid #977ada;
+    border-right: 200px solid #9f80e6;
     border-top: 100px solid transparent;
-    border-bottom: 100px solid #ff858a;
+    border-bottom: 100px solid #8767d4 ;
   }
   
   .options {
@@ -96,17 +96,17 @@
     gap: 5rem;
   
     & button {
-      color: #ff3234;
+      color: #010101;
       font-weight: 600;
       border-radius: 3px;
-      background: #fad7df;
+      background: #dddbdb;
       padding: 0.5rem 1rem;
-      border: 1px solid #fe3334;
+      border: 1px solid #000000;
       cursor: pointer;
     }
   
     & button:hover {
-      background: #ff989e;
+      background: #000000;
       color: white;
     }
   }
@@ -150,7 +150,7 @@
     margin: auto;
     font-size: 3rem;
   
-    color: #fe3334;
+    color: #000000;
   
     animation: crecer 1s forwards ;
   }
