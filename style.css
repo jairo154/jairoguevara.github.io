@@ -40,7 +40,7 @@
   } */
   
   body {
-    background-color: #75aedb;
+    background-color: #39403f;
   }
   
   main {
@@ -62,7 +62,7 @@
     position: absolute;
     border-left: 200px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 100px solid #6a4885;
+    border-top: 100px solid #000000;
     border-bottom: 100px solid transparent;
   
     /*  */
@@ -85,10 +85,10 @@
   }
   
   .letter {
-    border-left: 200px solid #977ada;
-    border-right: 200px solid #9f80e6;
+    border-left: 200px solid #121213;
+    border-right: 200px solid #141415;
     border-top: 100px solid transparent;
-    border-bottom: 100px solid #8767d4 ;
+    border-bottom: 100px solid #18171a ;
   }
   
   .options {
@@ -150,7 +150,7 @@
     margin: auto;
     font-size: 3rem;
   
-    color: #000000;
+    color: #ca1d1d;
   
     animation: crecer 1s forwards ;
   }
