@@ -40,7 +40,7 @@
   } */
   
   body {
-    background-color: #b3b8b7;
+    background-color: #9c71b7;
   }
   
   main {
@@ -62,7 +62,7 @@
     position: absolute;
     border-left: 200px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 100px solid #000000;
+    border-top: 100px solid #298eb0;
     border-bottom: 100px solid transparent;
   
     /*  */
@@ -85,10 +85,10 @@
   }
   
   .letter {
-    border-left: 200px solid #121213;
-    border-right: 200px solid #141415;
+    border-left: 200px solid #5d8a9b;
+    border-right: 200px solid #5088a9;
     border-top: 100px solid transparent;
-    border-bottom: 100px solid #18171a ;
+    border-bottom: 100px solid #59a4bc;
   }
   
   .options {
