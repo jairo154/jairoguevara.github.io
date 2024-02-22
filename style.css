@@ -40,7 +40,7 @@
   } */
   
   body {
-    background-color: #9c71b7;
+    background-color: #d5b3de;
   }
   
   main {
@@ -62,7 +62,7 @@
     position: absolute;
     border-left: 200px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 100px solid #298eb0;
+    border-top: 100px solid  #5fd7bd;
     border-bottom: 100px solid transparent;
   
     /*  */
@@ -85,10 +85,11 @@
   }
   
   .letter {
-    border-left: 200px solid #5d8a9b;
-    border-right: 200px solid #5088a9;
+    border-left: 200px solid #5bb6a2;
+    border-right: 200px solid  #59ae9c;
     border-top: 100px solid transparent;
-    border-bottom: 100px solid #59a4bc ;
+    border-bottom: 100px solid  #53aa97
+     ;
   }
   
   .options {
@@ -150,7 +151,7 @@
     margin: auto;
     font-size: 3rem;
   
-    color: #ca1d1d;
+    color: #0e0d0d;
   
     animation: crecer 1s forwards ;
   }
@@ -166,12 +167,3 @@
   
     }
   }
-  
- 
-  
-  
-   
-  
-
-  
-  
