@@ -1,4 +1,62 @@
-}
+* {
+    min-width: 0;
+    font: inherit;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  img,
+  video,
+  svg {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  body {
+    margin: 0;
+    min-height: 100dvh;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  
+  p {
+    text-wrap: pretty;
+  }
+  
+  /* styles */
+  /* TODO: Cambiar la fuente
+  
+  * {
+    font-family: comic-sans;
+  } */
+  
+  body {
+    background-color: #ffffff;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+  
+    gap: 4.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container-letter {
+    position: relative;
+  }
   
   .cover {
     position: absolute;
@@ -109,3 +167,7 @@
   
     }
   }
+  
+  
+
+  
