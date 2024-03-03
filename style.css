@@ -1,69 +1,11 @@
-* {
-    min-width: 0;
-    font: inherit;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  
-  img,
-  video,
-  svg {
-    display: block;
-    height: auto;
-    max-width: 100%;
-  }
-  
-  body {
-    margin: 0;
-    min-height: 100dvh;
-  }
-  
-  h1,
-  h2,
-  h3 {
-    text-wrap: balance;
-  }
-  
-  p {
-    text-wrap: pretty;
-  }
-  
-  /* styles */
-  /* TODO: Cambiar la fuente
-  
-  * {
-    font-family: comic-sans;
-  } */
-  
-  body {
-    background-color: ;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: column;
-    color: ;
-  
-    gap: 4.5rem;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .container-letter {
-    position: relative;
-  }
+}
   
   .cover {
     position: absolute;
     border-left: 200px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 100px solid ; 
-        border-bottom: 100px solid transparent;
+    border-top: 100px solid  hsl(0, 0%, 2%);
+    border-bottom: 100px solid transparent;
   
     /*  */
     transition: transform .75s;
@@ -85,10 +27,10 @@
   }
   
   .letter {
-    border-left: 200px solid ;
-    border-right: 200px solid ;
+    border-left: 200px solid #0d1211;
+    border-right: 200px solid  #0a0f0e;
     border-top: 100px solid transparent;
-    border-bottom: 100px solid  
+    border-bottom: 100px solid  #050808
      ;
   }
   
@@ -97,7 +39,7 @@
     gap: 5rem;
   
     & button {
-      color: ;
+      color: #010101;
       font-weight: 600;
       border-radius: 3px;
       background: #dddbdb;
@@ -151,7 +93,7 @@
     margin: auto;
     font-size: 3rem;
   
-    color: ;
+    color: #0e0d0d;
   
     animation: crecer 1s forwards ;
   }
